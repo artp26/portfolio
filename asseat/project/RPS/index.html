@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>ROCK PAPER SCISSORS</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+	<div class="topsection">
+		<header>
+			<div class="title">
+				<p class="p1">ROCK </p>
+				<p class="p2">PAPER </p>
+				<p class="p3">SCISSORS</p>
+			</div>
+			<div class="score">
+				<div class="scoreBox">
+					<p>
+						YOUR <br />
+						SCORE
+					</p>
+					<span id="userScore"></span>
+				</div>
+				<div class="scoreBox">
+					<p>COMPUTER <br />SCORE</p>
+					<span id="pcScore"></span>
+				</div>
+			</div>
+			<span id="rl" onclick="refresh()">&#8635;</span>
+		</header>
+	</div>
+	<main class="middle">
+		<div class="select" id="selects">
+			<div class="Img rock" onclick="letsPlay('rock')">
+				<img src="./image/rock.png" alt="" />
+			</div>
+			<div class="Img paper" onclick="letsPlay('paper')">
+				<img src="./image/paper.png" alt="" />
+			</div>
+			<div class="Img scissor" onclick="letsPlay('scissor')">
+				<img src="./image/scissor.png" alt="" />
+			</div>
+		</div>
+		<div class="Results" id="Result">
+			<div class="resultshow">
+				<div class="myChoice" id="myChoice">
+					<img src="./image/rock.png" alt="" id="userChoice" />
+				</div>
+				<div class=" finalResult" id="choiceResultDetails">
+					<h1 id="yourTitle">YOU WIN</h1>
+					<h2 id="resultTie">AGAINST PC</h2>
+					<button onclick="playagain()">PLAY AGAIN</button>
+				</div>
+				<div class="pcChoice" id="pcChoice">
+					<img src="./image/scissor.png" alt="" id="displayDone" />
+					<img src="./image/hand" alt="" id="display" />
+				</div>
+			</div>
+		</div>
+	</main>
+	<div class="buttonSection">
+		<div class="button " id="ruleButton" onclick="closeRules()">
+			RULES
+		</div>
+		<a href="./win.html" class="button next" id="next">NEXT</a>
+	</div>
+	<div id="gameRule">
+		<h1>Game Rule</h1>
+		<ul>
+			<li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+			<li>
+				Agree ahead of time whether you’ll count off “rock, paper, scissors,
+				shoot” or just “rock, paper, scissors.”
+			</li>
+			<li>
+				Use rock, paper, scissors to settle minor decisions or simply play to
+				pass the time
+			</li>
+			<li>
+				If both players lay down the same hand, each player lays down another
+				hand
+			</li>
+		</ul>
+		<div id="closeRules" onclick="closeRules()">X</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

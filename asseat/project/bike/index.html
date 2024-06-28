@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bicycle</title>
+    <link rel="stylesheet" href="css/style15.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- bootrstrap icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<!-- font link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section>
+        <section>
+            <nav>
+                <div>
+                    <div class="nav-row">
+                    <div class=" container-fluid logo">
+                        <a href="#">
+                            <span><img src="images/illustration/project14logo.png" width="42px" height="45px"
+                                alt="logo image">Mountain Bike</span>
+                        </a>
+                    </div>
+                    <ul class="bar-login row d-flex justify-content-between">
+                            <li class="col-6 col-sm-2"><p><a href="#">Register <i class="bi bi-person-plus-fill pe-2"></i></a></p></li>
+                            <li class="col-6 col-sm-2"><p><a href="#">Support <i class="bi bi-chat-fill pe-2"></i></a></p></li>
+                            <li class="col-6 col-sm-2"><p><a href="#" class="pe-2">Contact:(01)-8000-0987-11</a></p></li>
+                            <li class="col-6 col-sm-2"><p><a href="#" id="showlogin">Account <span id="triangle_down" class="pe-2">▼</span></p></a></li>
+                        </ul>
+                    </div>
+                        
+                    </div>    
+            </nav>
+        </section>
+        <section>
+            <div class="mainmenu">
+                <div class="container">
+                    <div class="row">
+                        <ul class="d-flex d-none d-lg-block ">
+                            <li class="selected current"><a href="#">Home <span id="triangle_down" class="pe-4">▼</span></a></li>
+                            <li class="current"><a href="#">About <span id="triangle_down" class="pe-4">▼</span></a></li>
+                            <li class="current "><a href="#">Bicycles <span id="triangle_down" class="pe-4">▼</span></a> </li>   
+                            <li class="current"><a href="#">Post <span id="triangle_down" class="pe-4">▼</span></a> </li>
+                            <li class="current">  <a href="#">Contact <span id="triangle_down" class="pe-4">▼</span></a> </li>  
+                            <li><a href="#" class="#">Features <span id="triangle_down" class="pe-4">▼</span></a></li>    
+                            <li><a href="#">Quotation <i class="bi bi-star-fill pe-4"></i></a></li>  
+                           </ul>
+                           <div class="tinynav-0">
+                             <select id="tinynav1" class="tinynav tinynav1 d-lg-none">
+                                <option value="#" selected="selected">Home</option>
+                             </select>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero-img">
+            <div class="hero-info">
+                <span><i class="bi bi-bicycle"></i>MERRY</span>
+                <p>GRAND FINALE</p>
+            </div>
+        </section>
+        <section class="bike-0">
+            <h2 class="center">Find the <span class="color">Best</span> Option</h2>
+            <div>
+                <div class="row d-flex">
+                    <div class="bike_slide  col-md-4 col-xl-3">
+                        <img src="images/illustration/project14bike-01.png" width="100%" height="auto">
+                        <a href="#"><h4>Aw1 - Old Version</h4></a>
+                        <p><span class="color">now:</span> 1,700usd / <span class="color">before:</span> 2,000usd</p>
+                    </div>
+                    <div class="bike_slide  d-none d-md-block col-md-4 col-xl-3">
+                        <img src="images/illustration/project14bike-03.png" width="100%" height="auto">
+                        <a href="#"><h4>New Bicycle Aw1!</h4></a>
+                        <p><span class="color">now:</span> 1,700usd / <span class="color">before:</span> 2,000usd</p>
+                    </div>
+                    <div class="bike_slide  d-none d-md-block col-md-4 col-xl-3">
+                        <img src="images/illustration/project14bike-04.png" width="100%" height="auto">
+                        <a href="#"><h4>Aw22 with All Accesories</h4></a>
+                        <p><span class="color">now:</span> 1,700usd / <span class="color">before:</span> 2,000usd</p>
+                    </div>
+                    <div class="bike_slide  d-none d-xl-block col-lg-3 ">
+                        <img src="images/illustration/project14bike-02.jpg" width="100%" height="auto">
+                        <a href="#"><h4>Aw1-01</h4></a>
+                        <p><span class="color">now:</span> 1,700usd / <span class="color">before:</span> 2,000usd</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="got">
+            <div>
+                <div>
+                    <h2 class="center">See what we've got <span class="color">for you</span></h2>
+                </div>
+                <div class="row d-flex">
+                    <div class="bike-2 col-md-6 col-xl-4">
+                        <a href="#">
+                            <figure>
+                                <img src="images/illustration/proj15item-bg-01.jpg" width="100%" height="auto">
+                            </figure>
+                            <figcaption>
+                                <h4>Helmets</h4>
+                                <p>Find your helmet! - list-categories Man -  Route Man - Recreation women - Sorprises -</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                    <div class="bike-2  col-md-6 col-xl-4">
+                        <a href="#">
+                            <figure>
+                                <img src="images/illustration/proj15item-bg-02.jpg" width="100%" height="auto">
+                            </figure>
+                            <figcaption>
+                                <h4>Shoes</h4>
+                                <p>Find your Shoes! - Shoes MtB - Sorprises - Shoes Spare Parts - Shoes Children -</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                    <div class="bike-2  col-md-6 col-xl-4">
+                        <a href="#">
+                            <figure>
+                                <img src="images/illustration/proj15item-bg-03.jpg" width="100%" height="auto">
+                            </figure>
+                            <figcaption>
+                                <h4>Helmets</h4>
+                                <p>Find your helmet! - list-categories Man -  Route Man - Recreation women - Sorprises -</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                    <div class="bike-2  col-md-6 col-xl-4">
+                        <a href="#">
+                            <figure>
+                                <img src="images/illustration/proj15item-bg-04.jpg" width="100%" height="auto">
+                            </figure>
+                            <figcaption>
+                                <h4>Helmets</h4>
+                                <p>Find your helmet! - list-categories Man -  Route Man - Recreation women - Sorprises -</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                    <div class="bike-2  col-md-6 col-xl-4">
+                        <a href="#">
+                            <figure>
+                                <img src="images/illustration/proj15item-bg-05.jpg" width="100%" height="auto">
+                            </figure>
+                            <figcaption>
+                                <h4>Helmets</h4>
+                                <p>Find your helmet! - list-categories Man -  Route Man - Recreation women - Sorprises -</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                    <div class="bike-2  col-md-6 col-xl-4">
+                        <a href="#">
+                            <figure>
+                                <img src="images/illustration/proj15item-bg-06.jpg" width="100%" height="auto">
+                            </figure>
+                            <figcaption>
+                                <h4>Helmets</h4>
+                                <p>Find your helmet! - list-categories Man -  Route Man - Recreation women - Sorprises -</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="title-0">
+                <h2 class="title_download">
+                    <span class="color">Mountain Bike</span> has been visited 
+                    <span class="responsive-numbers">
+                        <span>2</span>
+                        ,
+                        <span>6</span>
+                        <span>1</span>
+                        <span>2</span>
+                        ,
+                        <span>9</span>
+                        <span>0</span>
+                        <span>0</span>
+                    </span>
+                    times.
+                </h2>
+                <h4>Five star Rating <i class="bi bi-star-fill"></i> in our Bicycles!</h4>
+                <div>
+                    <div class="row d-flex container flex-wrap">
+                    
+                        <div class="bicycles col-4 col-sm-2">
+                            <img src="images/illustration/proj-15-1.jpg" width="68px" height="68px">
+                        </div>
+                        <div class="bicycles col-4 col-sm-2">
+                            <img src="images/illustration/proj-15-2.jpg" width="68px" height="68px">
+                        </div>
+                        <div class="bicycles col-4 col-sm-2">
+                            <img src="images/illustration/proj-15-3.jpg" width="68px" height="68px">
+                        </div>
+                        <div class="bicycles col-4 col-sm-2">
+                            <img src="images/illustration/proj-15-4.jpg" width="68px" height="68px">
+                        </div>
+                        <div class="bicycles col-4 col-sm-2">
+                            <img src="images/illustration/proj-15-5.jpg" width="68px" height="68px">
+                        </div>
+                        <div class="bicycles col-4 col-sm-2">
+                            <img src="images/illustration/proj-15-6.jpg" width="68px" height="68px">
+                        </div>
+                    
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class=" Crossing-0 row d-flex">
+                <div class="Crossing col-xl-6">
+                    <figure>
+                        <img src="images/background/iproj15-bg-mage-slider-04.jpg" width="100%" height="auto">
+                        <figcaption>
+                            <h2>Last Crossing</h2>
+                        <time datetime="2015-12-30">30/December/14</time>
+                        </figcaption>
+                    </figure>
+                   </div>
+                   <div class="kom col-12 col-xl-6">
+                    <h3>The Essence of Passion</h3>
+                    <p>Perhaps you’re considering one of our cycling vacations to <span class="color">California Wine Country, Provence, or the Tour de France.</span>  Maybe you’ve just come back from one of our journeys and want to be reminded of those wow moments.</p>
+                    <h3>We believe seeing the world from a seat of a bike is the best way to travel.</h3>
+                    <p>No matter the reason, peruse our gallery to <span class="color"> hear from past guests, see memories in motion,  </span>and view photos of our cycling adventures. Use the filters below to take a visual journey.</p>
+                    <div class="row d-flex">
+                        <div class=" col-12 col-md-3">
+                            <img src="images/illustration/proj15gallery-image-01.jpg" width="100%" height="auto" >
+                        </div>
+                        <div class=" d-none d-md-block col-md-3">
+                            <img src="images/illustration/proj15gallery-image-03.jpg" width="100%" height="auto" >
+                        </div>
+                        <div class=" d-none d-md-block col-md-3">
+                            <img src="images/illustration/proj15gallery-image-02.jpg" width="100%" height="auto" >
+                        </div>
+                        <div class=" d-none d-md-block col-md-3">
+                            <img src="images/illustration/proj15gallery-image-03.jpg" width="100%" height="auto" >
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="anja">
+                <h2>
+                    For almost 05 years, Mountain Bike has been in the dirt, on the trails and off the ramps. Founded in 2009 in a Colombia garage
+                </h2>
+                <div class="row d-flex">
+                    <div class="prac col-12 col-md-6 col-lg-4">
+                        <strong>
+                            01
+                            <i class="bi bi-person-plus-fill"></i>
+                        </strong>
+                        <span>create new account</span>
+                    </div>
+                    <div class="prac col-12 col-md-6 col-lg-4">
+                        <strong>
+                            02
+                            <i class="bi bi-person-plus-fill"></i>
+                        </strong>
+                        <span>Register your Bike</span>
+                    </div>
+                    <div class="prac col-12 col-lg-4">
+                        <strong>
+                            03
+                            <i class="bi bi-bicycle"></i>
+                        </strong>
+                        <span>create new account</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            <footer class="footer-top" id="footer-1">
+                <div class="container footer-top-0">
+                   <div class="row">   
+                    <form id="newsletterForm">
+                        <div class="input-group">
+                            <input class="form-control" placeholder="Email Address" name="email" type="email" required="required">
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" type="submit" name="subscribe">Started!</button>
+                            </span>
+                        </div>
+                    </form>   
+                </div>
+            </footer>
+            <footer class="footer-center">
+                <div class="container">
+
+                   <div class="row">   
+                       <div class="col-md-3 col-sm-6 center">
+                            <span class="arrow_footer"></span>
+                            <i class="bi bi-telephone-fill"></i>
+                            <h4>018000-236-5899</h4>               
+                       </div>
+                       <div class="col-md-3 col-sm-6 center">
+                            <span class="arrow_footer"></span>
+                            <i class="bi bi-chat-fill"></i>
+                            <h4>Live Chat Online</h4>     
+                       </div>
+                       <div class="col-md-3 col-sm-6 center">
+                           <span class="arrow_footer"></span>
+                            <i class="bi bi-envelope-fill"></i>
+                            <h4>support@iwthemes.com</h4>                       
+                       </div>
+                       <div class="col-md-3 col-sm-6 center">
+                            <span class="arrow_footer"></span>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <h4>Good Support 24x7x365</h4>       
+                       </div>
+                   </div>    
+                       <hr>
+                    <div class="row center top">   
+                                                                      
+                        <!-- Nav-->
+                        <div class="container">
+                            <ul class="menu">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Bicycles</a></li>
+                                <li><a href="#">Faq's</a></li>
+                                <li><a href="#">Quotation</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+
+                            <p class="copry h5">© 2015 . All Rights Reserved. 2010 - 2015</p>
+
+
+
+                            
+                            <ul class="social">
+                                <li class="pe-2">
+                                    <a href="#"><i class="bi bi-facebook"></i></a>
+                                </li> 
+                                <li class="pe-2">
+                                    <a href="#"><i class="bi bi-twitter"></i></a>
+                                </li> 
+                                <li class="pe-2">
+                                    <a href="#"><i class="bi bi-youtube"></i></a>
+                                </li>                     
+                            </ul>
+                            
+                        </div>
+                        
+
+                   </div> 
+                </div>
+            </footer> 
+        
+            
+        
+        
+    </section>
+</body>
+</html>

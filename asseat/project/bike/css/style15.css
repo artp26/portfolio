@@ -1,0 +1,431 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.tinynav-0{
+    text-align: center;
+}
+#tinynav1{
+    padding-right: 70%;
+
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.mainmenu li i{
+    color: yellow
+}
+
+.mainmenu li{
+    list-style: none;
+    /* padding-left: 10px; */
+    display: inline-block;
+    justify-content: space-evenly;
+}
+.mainmenu li a{
+    text-decoration: none;
+    color: #f0e8e8;
+    }
+.nav-row ul{
+    margin-bottom: 0px;
+}
+.nav-row{
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 10px;
+}
+.logo a{
+    text-decoration: none;
+    color: #f0e8e8;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    line-height: 6rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+.nav-row li{
+    list-style: none;
+    text-align: center;
+    display: contents ;
+}
+.nav-row li a{
+    text-decoration: none;
+    color: #f0e8e8;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2.3rem;
+}
+.mainmenu{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 2.4rem;
+    background-color: #676767;
+    padding: 10px 0px;
+}
+.hero-img{
+    background-image: url(../images/background/proj15image-slider-02.jpg);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid red;
+    /* margin-top: 50px; */
+}
+.hero-info{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    top: 115.077px;
+    font-size:30px ;
+    font-weight:16px;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    }
+.hero-info span i{
+    padding-right: 5px;
+}
+.color{
+    color: red;
+}
+.bike_slide{
+    padding: 0px 15px;
+    text-align: center;
+}
+.bike_slide a{
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #404040;
+    font-weight: 500;
+    line-height: 1.1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+.bike_slide p{
+    font-size: 1.5 rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2.4rem;
+    color: #676767;
+}
+.bike-0{
+    padding: 0px 15px;
+}
+.center{
+    text-align: center;
+    color: #404040;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+
+}
+.got{
+    padding: 0px 15px;
+}
+.bike-2{
+    
+    text-align: center;
+}
+.bike-2 a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #404040;
+    font-family: 'Raleway', sans-serif;
+
+}
+.bike-2 figcaption{
+    text-align: left;
+    background-color: #fbfafa;
+    padding: 0px 10px;
+    width: 94%;
+    padding-bottom: 10px;
+    box-shadow: 0px 7px 5px -7px rgba(0,0,0, 0.3);
+    position: relative;
+    top: -90px;
+    left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.bike-2 figcaption h4{
+    padding-top: 25px;
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.bike-2 figcaption p{
+    font-size: 14px;
+    line-height: 1.2rem;
+    letter-spacing: 0.03rem;
+    color: #4c4c4c;
+}
+.title-0{
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.title_download{
+    text-align: center;
+    color: #404040;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+.responsive-numbers span{
+    background-color: #2F2F2F;
+    color: #fff;
+    /* padding: 1rem 1.5rem;
+    border-radius: 0.8rem; */
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.title_download h2{
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    color: #404040;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: center;
+}
+.title-0 h4{
+    width: 100%;
+    font-size: 1.5 rem;
+    margin: 0 auto;
+    color: #404040;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 60px;   
+}
+.title-0 h4 i{
+color: #D2232A;
+}
+.bicycles{
+    text-align: center;
+    vertical-align:center;
+}
+
+.Crossing-0{
+    background-color: #fbfafa;
+    border-top: 0.1rem solid #ededed;
+    border-bottom: 0.1rem solid #ededed;
+    padding-bottom: 90px;
+    
+}
+.Crossing figcaption{
+    text-align: center;
+    position: relative;
+    top: -200px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 2.4rem;
+}
+
+.kom h3{
+    font-family: inherit;
+font-weight: 500;
+line-height: 1.1;
+color: #404040;
+font-size: 24px;
+margin-bottom: 10px;
+/* margin-top: 0px; */
+}
+.kom p{
+    font-family: 'Raleway', sans-serif;
+font-size: 16px;
+line-height: 1.5rem;
+color: #676767;
+}
+.anja{
+    padding: 0px 15px;
+    margin-bottom: 40px;
+}
+.anja h2{
+    font-size: 1.5rem;
+    font-family: inherit;
+line-height: 2rem;
+
+color: #404040;
+margin-top: 40px;
+margin-bottom: 20px;
+text-align: center;
+}
+.prac{
+    padding: 0px 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.prac strong{
+    color: #D2232A;
+    color: #D2232A;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    line-height: 2.8rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+}
+.prac i{
+    font-size: 74px;
+
+   vertical-align: -2%;
+   line-height: 74px;
+   color: #404040;
+   opacity: 0.8;
+   text-align: center;
+   display: inline-block;
+}
+.prac span{
+    text-align: center;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-size:20px ;
+    color: #afa8a8;
+
+}
+.footer-top{
+text-align: center;
+padding: 4rem 0;
+background-color: #2F2F2F;
+text-align: center;
+}
+
+.footer-top-0{
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+.input-group{
+    font-family: 'Raleway', sans-serif;
+font-size: 16px;
+line-height: 2.4rem;
+color: #afa8a8;
+position: relative;
+display: table;
+border-collapse: separate;
+}
+.form-control{
+border-top: 0px;
+background-color: transparent;
+border-bottom: 1px solid #fff;
+border-radius: 0;
+height: auto;
+float: left;
+padding: 6px 12px;
+line-height: 1.42857143;
+color: #000;
+padding: 3rem 0 2rem 0;
+}
+#newsletterForm button{
+    border: 1px solid #fff;
+    /* -webkit-border-radius: 2px; */
+    padding: 6px 26px;
+    background: transparent;
+    margin-left: -1px;
+    font-weight: 300;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+    color: #fff;
+    display: inline-block;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    
+
+}
+.footer-center{
+    background-color: #191919;
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+
+}
+.footer-center container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+
+}
+.footer-center row{
+    margin-right: -15px;
+margin-left: -15px;
+color: #fff;
+}
+.footer-center i{
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.footer-center h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 2.4rem;
+    color: #f5f5f5;
+}
+.footer-center hr{
+    color: #f5f5f5;
+}
+
+.menu li{
+ list-style: none;
+ display: inline-block;
+ justify-content: center;
+ justify-content: space-between;
+ padding-left: 10px;
+ justify-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    text-align: center;
+}
+.social li{
+   list-style: none;
+   display: inline-block;
+   justify-content: space-between;
+   justify-items: center;
+}
+.social a{
+    text-decoration: none;
+    /* font-size: 15px; */
+}
+.social a i{
+    font-size: 30px;
+}
+@media (min-width:576px){
+    .hero-img{
+        height: 100vh;
+    }
+}
+@media (min-width:992px){
+    .hero-img{
+        height: 100vh;
+    }
+}

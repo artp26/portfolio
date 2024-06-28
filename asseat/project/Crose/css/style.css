@@ -1,0 +1,641 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.container{
+    width: 100%;
+}
+header .header1, header .header2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+header .header1{
+    
+    /* border:1px solid; */
+    height:50px;
+    background-color: #f0eded;
+    padding:10px;
+    color:#b42a2a;
+    position: fixed;
+    width:100%;
+   
+
+}
+.header1 ul span{
+    display:none;
+}
+
+.header1 ul li{
+    display: inline-block;
+    margin:0px 2px;
+    
+}
+.header1 li a{
+    text-decoration: none;
+    color:#9f9b9b;
+    margin: 0px 5px;
+}
+.header1 li a:hover{
+color: #e03131;
+}
+
+header .header2{
+   
+    /* border-bottom: 1px solid #ebebeb; */
+    padding: 60px;
+    box-shadow: 0 0 12px gainsboro;
+    
+       
+    
+}
+
+.header2 input{
+    
+        padding: 15px;
+        background-color:  #b42a2a;;
+        color:white;
+        text-transform: uppercase;
+        border-radius: 3px;
+        border:none;
+        
+}
+.header2 input:hover{
+    background-color: #331111;
+
+}
+.header2 nav,.header2 form {
+   
+    display: none;
+}
+.header2 ul li{
+    display: inline-block;
+    text-transform: uppercase;
+   
+}
+.header2 li a{
+    text-decoration: none;
+    color: #000000;
+    
+    
+}
+.header2 li a:hover{
+    color:red;
+    
+   
+}
+.header2 i{
+    color:#b42a2a;
+}
+.header2 i:hover{
+    color:#0d0d0d;
+}
+.fa-bars:hover {
+    color:red;
+ 
+}
+.header2 img, .header2 i{
+    margin:0px 5px;
+}
+main img{
+    width:100%;
+    
+}
+main .hero{
+    /* border:1px solid; */
+    text-align:center;
+    padding:10px;
+    
+}
+
+main .hero h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding:15px;
+}
+main .hero a{
+    text-decoration: none;
+    color:#b42a2a;
+}
+main .cards{
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+      
+
+}
+/* main .cards .d1{
+    
+    color: #9f9e9e;
+    padding: 10px;
+    text-align:left;
+} */
+main .cards h3{
+    color:black;
+}
+main .places{
+    
+    text-align: center;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(../illustration/6.jpg);
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+         
+    
+}
+main .places h3{
+    color:#e03131;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px;
+    
+    
+}
+main .places p{
+    color: white;
+    font-size: 20px;
+    padding:10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Carlito', sans-serif;
+   
+}
+main .places input{
+   
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: white;
+    color:#e03131;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: none;
+}
+main .places input:hover{
+    color:white;
+    background-color: #e03131;
+}
+main .sermons{
+    /* border: 1px solid; */
+    padding:15px;
+    color: #9f9e9e;
+    text-align: center;
+   
+}
+main .sermons h1{
+    color: black;
+}
+main .sermons p{
+    padding:25px;
+}
+.sermons cards2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.cards2 .d2 ul li{
+    display: inline-block;
+    padding:10px;
+   
+    
+}
+.cards2 .d2 img{
+    /* border: 1px solid; */
+    box-shadow: 6px 6px 12px rgb(224, 223, 223);
+    border-radius: 6px;
+    position:relative;
+    z-index: 1;
+    
+}
+.cards2 .d2 .calendar{
+    /* border: 1px solid; */
+    padding: 7px;
+    width:20%;
+    box-shadow: 6px 6px 12px rgb(224, 223, 223);
+    border-radius: 6px;
+    margin-top: -70px;
+    position:absolute;
+    z-index: 2;
+    background-color: white;
+    text-align: center;
+}
+.cards2 .d2 .calendar:hover{
+    background-color: #e03131;
+    color:white;
+    transform: translateY(-25px);
+    transition-duration: 3s;
+}
+.cards2 .d2 ul li a{
+    color:gray;
+
+}
+ .cards2 .d2 h3{
+    color:black;
+    /* border:1px solid; */
+    padding:15px;
+    border-bottom: 1px solid #dbd9d9;
+    
+}
+.cards2 .d2 ul li a:hover{
+    color: #e03131;
+    
+    
+    }
+    .sermonlist{
+        text-align: left;
+    }
+    .sermonlist i{
+        color: #b42a2a;
+        padding-right:10px;
+        
+    }
+    .sermonlist .graygroup{
+        color:#9f9e9e;
+        font-style: italic;
+    }
+    
+    main .events{
+        /* border:1px solid; */
+        
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(../illustration/24.jpg);
+        padding: 50px;
+        background-attachment: fixed;
+        color: white;
+        text-align: left;
+               
+    }
+    main .events h1{
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    main .imagegroup{
+        /* border:1px solid; */
+        margin-top:30px;
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        overflow: hidden;
+               
+    }
+    
+    
+    main .imagegroup img:hover{
+        transition: transform 4s ease-out;
+        transform: scale(1.2);
+        opacity:0.4;
+       
+                 
+    }
+    .news .news3{
+        /* border:1px solid; */
+        padding: 20px;
+        text-align:center;
+        
+    }
+    .news .cards3{
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: flex-start;
+       align-items: flex-start;
+       padding:10px;
+      
+    }
+    .d3 ul li{
+        display:inline-block;
+        padding:10px;
+        
+    }
+    .d3 a{
+        text-decoration:none;
+        color:black;
+    }
+    .d3 a:hover{
+        color: #e03131;
+    }
+    .d3 h3{
+        font-family: 'Carlito', sans-serif;
+        font-size: 25px;
+        
+    }
+    .d3 i{
+        color: #b42a2a;
+        padding-right:10px;
+    }
+    .d3 p{
+        margin: 30px 0px;
+        color:#9f9e9e;
+    }
+    main .subscribe{
+        background-color: #e03131;
+        color: white;
+        padding: 20px;
+        font-family: 'Carlito', sans-serif;
+        text-align: left;
+    }
+    .subscribe h1{
+        font-size: 25px;
+       
+    }
+    .subscribe form{
+       
+        margin:15px auto;
+        
+    }
+    .subscribe form input{
+       
+        border-radius: 3px;
+        border:none;
+       
+              
+                    
+        
+    }
+    .subscribe form input[type="email"] {
+        
+        padding:15px;
+        width:80%;
+                
+    }
+    .subscribe form input[type="submit"] {
+
+        
+        padding:10px;
+        
+        margin-left: -104px;
+        background-color: #e03131;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+       
+        /* border: 3px solid;
+        
+        margin-left: -130px;;
+        width:10%;
+       
+        padding: 7px;
+        
+         */
+    }
+    .subscribe form input[type="submit"]:hover{
+        background-color: black;
+    }
+    
+     .footer1{
+        /* border:1px solid; */
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        color:#9f9e9e;
+        background-color: #331111;
+    }
+    .footer1 .d4{
+        /* border:1px solid red; */
+        padding:30px;
+    }
+    .d4 .list{
+        display:inline-block;
+        /* border:1px solid white; */
+        padding:10px;
+    }
+    .d4 ul li{
+        list-style-type: none;
+        margin-bottom: 10px;
+    }
+    
+       .footer1 a{
+        text-decoration: none;
+        color:#9f9e9e;
+       }
+       .footer1 a:hover{
+        
+        color: #e03131;
+       }
+
+    .d4 img, .d4 p{
+        margin-bottom:20px;
+    } 
+    .d4 i{
+        color: #b42a2a;
+        padding:5px;
+    }
+    .d4 .itl{
+        font-style: italic;
+    }
+    .footer2{
+        display:flex;
+        justify-content: center;
+        background-color: #000000;
+        padding:15px;
+        color:#9f9e9e;
+        flex-wrap:wrap;
+        
+    }
+    .footer2 p{
+        font-size: 15px;
+    }
+    .footer2 #myname{
+        color: #b42a2a;
+        
+    }
+    .footer2 ul li{
+        display: inline-block;
+        padding:5px;
+        margin:10px;
+    }
+    .footer2 a{
+        color:#9f9e9e;
+
+    }
+    .footer2 a:hover{
+        color: #e03131;
+    }
+    @media only screen and (min-width:768px){
+
+        .fa-bars, .fa-search{
+            display: none;
+        }
+        header .header2 nav{
+            display: inline-block;
+            
+            
+           }
+           
+        header .header2{
+           display:flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            
+        } 
+       main .cards, .sermons .cards2, .news .cards3{
+        
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: space-evenly;
+            padding:10px;
+         
+                
+       }
+       footer .footer1{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        flex-direction: row;
+
+       }
+       main .imagegroup{
+        /* border:1px solid; */
+        margin-top:30px;
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        overflow: hidden;  
+        
+       
+    }
+    .imagegroup img{
+        width:50%;
+        
+    }
+       main .cards .d1, .sermons .cards2 .d2, .news .cards3 .d3, .footer1 .d4{
+        width:41%;
+        padding:10px;
+       }
+
+       .cards2 .d2 .calendar{
+        /* border: 1px solid; */
+        padding: 7px;
+        width:10%;
+       }
+       footer .footer2{
+        
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+       }
+       
+       main .subscribe, main .events{
+        
+        text-align: center;
+    }
+
+   
+    .subscribe form input[type="email"] {
+        
+        padding:15px;
+        width:50%;
+                
+    }
+}
+    
+    @media only screen and (min-width:992px){
+
+        .fa-bars{
+            display: none;
+        }
+        .fa-search{
+            display: inline;
+        }
+        .header1 ul span{
+            display:inline;
+        }
+        
+        .header2 {
+            width:100%;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+                       
+        }
+       
+        .header2 form{
+            display:block;
+        }
+        .header2 nav ul li{
+            padding: 5px;
+           }
+       
+       main .cards, .sermons .cards2, .news .cards3{
+        
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: space-evenly;
+            padding:10px;
+         
+                
+       }
+              
+       main .imagegroup{
+        /* border:1px solid; */
+        margin-top:30px;
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        overflow: hidden;  
+        
+       
+    }
+
+    .cards2 .d2 .calendar{
+        /* border: 1px solid; */
+        padding: 7px;
+        width:8%;
+       }
+
+    .imagegroup img{
+        width:20%;
+        
+    }
+       main .cards .d1, .sermons .cards2 .d2, .news .cards3 .d3{
+        width:29%;
+       }
+       .footer1 .d4{
+       
+        width: 22%;
+       }
+
+       footer .footer1{
+        padding:20px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        flex-direction: row;
+
+    }
+    
+       footer .footer2{
+        
+            display:flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+       }
+       
+       main .subscribe, main .events{
+        
+        text-align: center;
+    }
+    .subscribe form input[type="email"] {
+        
+        padding:15px;
+        width:35%;
+                
+    }
+    
+}
